@@ -1,7 +1,7 @@
-# Excel_Formulas
+# How to do: Excel 
 This repository has some formulas for Excel!
 
-### Conditional Operations
+Conditional Operations
 
 The formula "=AVERAGEIF(A1:A14, x, B1:B14)" calculates the average values in range B1:B14 based on a specific condition in range A1:A14.
 The condition is that the corresponding cell in range A1:A14 must equal x. The formula will consider only those values in range B1:B14 where the corresponding cell in range A1:A14 meets this condition.
@@ -9,7 +9,7 @@ The condition is that the corresponding cell in range A1:A14 must equal x. The f
 ```
 =AVERAGEIF(A1:A14, x, B1:B14)
 ```
-Here's an example of how you can calculate the standard deviation of values in range B1:B14 based on a condition in range A1:A14:
+Here's an example of how you can calculate the standard deviation of values in range B1:B14 when value x is present in range A1:A14:
 ```
 =STDEV(IF(A1:A14=x, B1:B14))
 ```
